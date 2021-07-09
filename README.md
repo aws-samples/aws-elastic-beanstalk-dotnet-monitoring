@@ -1,5 +1,4 @@
-Monitoring Elastic Beanstalk .NET applications with CloudWatch and Grafana
-<a href="https://aws.amazon.com/transit-gateway/">AWS Transit Gateway</a>
+#Monitoring Elastic Beanstalk .NET applications with CloudWatch and Grafana
 
 <a href="https://aws.amazon.com/elasticbeanstalk/">AWS Elastic Beanstalk</a> simplifies deployments by handling much of the architectural complexities involved with managing highly available applications. However, in large deployments with complex application servers, it often requires supplemental, finer grained monitoring and dynamic dashboards to achieve desired operational insights. <a href="https://aws.amazon.com/cloudwatch/">Amazon CloudWatch</a> can be used to supplement the Elastic Beanstalk enhanced health monitoring, while <a href="https://aws.amazon.com/grafana/">Amazon Managed Service for Grafana (AMG)</a> can provide dynamic visualizations.
 
