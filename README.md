@@ -6,6 +6,7 @@ This post provides step-by-step instructions for monitoring your Elastic Beansta
 
 ## Overview of solution
 Elastic Beanstalk monitors environments by using a built-in health agent and autoscaling health checks. When an application is unhealthy, the instance can be shut down and autoscaling can create a new one. But some complex .NET application servers require lengthy startup times. In addition, many .NET application servers run with multiple application pools on a single instance and require additional monitoring. The CloudWatch agent lets you monitor instance level metrics, such as memory and active server page metrics, as well as process level metrics important for determining application pool health.
+
 Applications may also be deployed across many Elastic Beanstalk environments in order to serve differing customer bases. This, coupled with the ephemeral nature of most Elastic Beanstalk components, means that dynamic dashboards are essential for providing views into the application and environment health. Integrating CloudWatch metrics into Amazon Managed Grafana lets you create custom dashboards that instantly reflect the quickly changing Elastic Beanstalk environments and their resources.
 
 Details of solution and implementation steps can be found in this blog post [insert link].
