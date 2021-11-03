@@ -9,7 +9,7 @@ Elastic Beanstalk monitors environments by using a built-in health agent and aut
 
 Applications may also be deployed across many Elastic Beanstalk environments in order to serve differing customer bases. This, coupled with the ephemeral nature of most Elastic Beanstalk components, means that dynamic dashboards are essential for providing views into the application and environment health. Integrating CloudWatch metrics into Amazon Managed Grafana lets you create custom dashboards that instantly reflect the quickly changing Elastic Beanstalk environments and their resources.
 
-Details of solution and implementation steps can be found in this blog post [insert link].
+Details of solution and implementation steps can be found in <a href="https://aws.amazon.com/blogs/mt/monitoring-elastic-beanstalk-net-applications-with-cloudwatch-and-grafana/">this blog post</a>.
 
 ## Security
 
